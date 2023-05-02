@@ -1,0 +1,3 @@
+<?
+$sSectionName="epilog_blocks";
+?>
