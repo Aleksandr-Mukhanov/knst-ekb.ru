@@ -1,4 +1,13 @@
 <?php
+
+// тест вывод
+function dump($el){
+	global $USER;
+	if($USER->IsAdmin()){
+		echo "<pre>";print_r($el);echo "</pre>";
+	}
+}
+
 AddEventHandler("main", "OnBeforeProlog", "MyOnBeforePrologHandler");
 
 function MyOnBeforePrologHandler()

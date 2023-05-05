@@ -283,7 +283,7 @@ $APPLICATION->SetTitle("Корзина");
 		var startProductPrice = parseInt(startProductPriceVal);
 		var deliveryTop = $(".bx-soa-pp-company.bx-selected").data('id') === 48;
 
-		if (startProductPrice < 0) {
+		if (startProductPrice < 5000) {
       $(".btn-order-save").addClass("order-disable");
 			$(".min-price-error").show();
 		} else {
