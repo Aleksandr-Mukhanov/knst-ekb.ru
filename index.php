@@ -92,7 +92,7 @@ $APPLICATION->SetTitle("Константа - интернет-магазин");
 		"PAGER_TEMPLATE" => ".default",
 		"PAGER_TITLE" => "Товары",
 		"PAGE_ELEMENT_COUNT" => "8",
-		"PARTIAL_PRODUCT_PROPERTIES" => "Y",
+		"PARTIAL_PRODUCT_PROPERTIES" => "N",
 		"PRICE_CODE" => array(
 			0 => "BASE",
 		),
@@ -143,7 +143,8 @@ $APPLICATION->SetTitle("Константа - интернет-магазин");
 		"SEF_RULE" => "",
 		"SECTION_CODE_PATH" => "",
 		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "AUTO"
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"SHOW_RATING" => "Y"
 	),
 	false
 );?>

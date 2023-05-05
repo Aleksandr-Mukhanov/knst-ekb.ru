@@ -4,7 +4,7 @@ $APPLICATION->SetTitle("Корзина");
 ?><script>window.basketJSParams = window.basketJSParams || [];</script>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:sale.basket.basket",
-	"v2",
+	"v3",
 	array(
 		"ACTION_VARIABLE" => "action",
 		"ADDITIONAL_PICT_PROP_22" => "-",
@@ -106,9 +106,26 @@ $APPLICATION->SetTitle("Корзина");
 		"ACTIVE_COMPONENT" => "Y"
 	)
 );?>
+
+<!-- <div class="row">
+	<div class="col-md-9">
+		<form action="" class="order-form">
+			<div class="form_title">
+				Введите данные
+			</div>
+			<div class="form_fields">
+				<input type="text" name="orderInn" value="" placeholder="ИНН">
+				<input type="text" name="orderName" value="" placeholder="Имя">
+				<input type="phone" name="orderPhone" value="" placeholder="Телефон">
+				<input type="email" name="orderEmail" value="" placeholder="E-mail">
+			</div>
+		</form>
+	</div>
+</div> -->
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:sale.order.ajax",
-	"v2_custom",
+	"v3",
 	array(
 		"ACTION_VARIABLE" => "soa-action",
 		"ADDITIONAL_PICT_PROP_22" => "-",
@@ -267,7 +284,7 @@ $APPLICATION->SetTitle("Корзина");
 		var deliveryTop = $(".bx-soa-pp-company.bx-selected").data('id') === 48;
 
 		if (startProductPrice < 0) {
-            $(".btn-order-save").addClass("order-disable");
+      $(".btn-order-save").addClass("order-disable");
 			$(".min-price-error").show();
 		} else {
 			$(".btn-order-save").removeClass('order-disabled');
