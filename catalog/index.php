@@ -15,7 +15,7 @@ $APPLICATION->IncludeComponent(
 		"PRODUCT_PROPS_VARIABLE" => "prop",
 		"SEF_MODE" => "Y",
 		"SEF_FOLDER" => "/catalog/",
-		"AJAX_MODE" => "N",
+		"AJAX_MODE" => "Y",
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
 		"AJAX_OPTION_HISTORY" => "Y",
@@ -844,8 +844,7 @@ $APPLICATION->IncludeComponent(
 		"SMARTSEO_TAGS_COUNT" => "10",
 		"SMARTSEO_TAGS_COUNT_MOBILE" => "3",
 		"REVIEW_COMMENT_REQUIRED" => "Y",
-		"REVIEW_FILTER_BUTTONS" => array(
-		),
+		"REVIEW_FILTER_BUTTONS" => "",
 		"REAL_CUSTOMER_TEXT" => "",
 		"USE_COMPARE_GROUP" => "N",
 		"SHOW_SORT_RANK_BUTTON" => "Y",

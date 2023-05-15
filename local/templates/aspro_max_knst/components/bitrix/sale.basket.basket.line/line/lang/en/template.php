@@ -1,0 +1,25 @@
+<?php
+$MESS["ADDED_TO_BASKET"] = "Added to cart";
+$MESS["BASKET"] = "Cart";
+$MESS["BASKET_DELAY_LIST"] = "Wish List";
+$MESS["BASKET_EMPTY_DESCRIPTION"] = "It is very easy to fix this misunderstanding:<br />Select the product you are interested in in the catalog and click the &raquo;Add to Cart&raquo; button.";
+$MESS["BASKET_EMPTY_SUBTITLE"] = "Sorry, your cart is empty.";
+$MESS["BASKET_EMPTY_TITLE"] = "Your basket is empty";
+$MESS["BASKET_LIST"] = "List of items in the shopping cart";
+$MESS["CHECKOUT"] = "Checkout";
+$MESS["CLOSE"] = "Continue Shopping";
+$MESS["CML2_BASE_UNIT"] = "piece";
+$MESS["DELAY"] = "Postponed";
+$MESS["EMPTY_BASKET"] = "empty";
+$MESS["GO_TO_BASKET"] = "Go to cart";
+$MESS["GO_TO_CATALOG"] = "Go to catalog";
+$MESS["GO_TO_DELAY"] = "Go to deferred";
+$MESS["IN_BASKET"] = "Goods:";
+$MESS["IN_BASKET_SMALL"] = "In cart";
+$MESS["NA"] = "on";
+$MESS["PRODUCTS_FIVE"] = "goods";
+$MESS["PRODUCTS_ONE"] = "product";
+$MESS["PRODUCTS_TWO"] = "product";
+$MESS["SALE_DELETE_PRD"] = "Delete";
+$MESS["STILL"] = "More";
+$MESS["TOTAL_SUMM_TITLE"] = "Total amount";

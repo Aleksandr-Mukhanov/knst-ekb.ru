@@ -1,0 +1,26 @@
+<?php
+$MESS["CATALOG_COMPARE"] = "Compare";
+$MESS["CATALOG_COMPARE_OUT"] = "In comparison";
+$MESS["CATALOG_ECONOMY"] = "Economy";
+$MESS["CATALOG_FROM"] = "from";
+$MESS["CATALOG_WISH"] = "postpone";
+$MESS["CATALOG_WISH_OUT"] = "In deferred";
+$MESS["CVP_ADD_TO_BASKET_OK"] = "Product added to cart";
+$MESS["CVP_CATALOG_BASKET_UNKNOWN_ERROR"] = "Unknown error adding item to cart";
+$MESS["CVP_CATALOG_BTN_MESSAGE_BASKET_REDIRECT"] = "Go to cart";
+$MESS["CVP_CATALOG_BTN_MESSAGE_CLOSE"] = "Close";
+$MESS["CVP_CATALOG_BTN_MESSAGE_SEND_PROPS"] = "Select";
+$MESS["CVP_CATALOG_SET_BUTTON_BUY"] = "Go to cart";
+$MESS["CVP_CATALOG_TITLE_BASKET_PROPS"] = "Product properties added to cart";
+$MESS["CVP_CATALOG_TITLE_ERROR"] = "Error";
+$MESS["CVP_MSG_YOU_HAVE_NOT_YET"] = "You haven't viewed any products yet.";
+$MESS["CVP_TPL_ELEMENT_DELETE_CONFIRM"] = "All information associated with this entry will be deleted. Continue?";
+$MESS["CVP_TPL_MESS_BTN_ADD_TO_BASKET"] = "Add to cart";
+$MESS["CVP_TPL_MESS_BTN_BUY"] = "Buy";
+$MESS["CVP_TPL_MESS_BTN_COMPARE"] = "Compare";
+$MESS["CVP_TPL_MESS_BTN_DETAIL"] = "More";
+$MESS["CVP_TPL_MESS_BTN_SUBSCRIBE"] = "Subscribe";
+$MESS["CVP_TPL_MESS_MEASURE_SIMPLE_MODE"] = "#VALUE# #UNIT#";
+$MESS["CVP_TPL_MESS_PRICE_SIMPLE_MODE"] = "from #PRICE# per #MEASURE#";
+$MESS["CVP_TPL_MESS_PRODUCT_NOT_AVAILABLE"] = "Out of stock";
+$MESS["CVP_TPL_MESS_RCM"] = "Personal recommendations:";

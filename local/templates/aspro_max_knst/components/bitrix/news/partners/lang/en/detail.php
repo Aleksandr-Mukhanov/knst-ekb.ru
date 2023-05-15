@@ -1,0 +1,22 @@
+<?php
+$MESS["BACK_LINK"] = 'List of brands';
+$MESS["CATALOG_ECONOMY"] = "Economy";
+$MESS["CATALOG_IN_CART"] = "In cart";
+$MESS["CATALOG_SMART_FILTER_TITLE"] = 'Filter';
+$MESS["ELEMENT_NOTFOUND"] = 'Element not found';
+$MESS["FILTER_ALL_SECTON"] = "All sections";
+$MESS["FILTER_SECTON"] = "Product sections";
+$MESS["RESET_FILTERS"] = "Reset all filters";
+$MESS["SECT_SORT_CATALOG_AVAILABLE"] = "In stock";
+$MESS["SECT_SORT_NAME"] = "Alphabetically";
+$MESS["SECT_SORT_PRICE"] = "By price";
+$MESS["SECT_SORT_QUANTITY"] = "In stock";
+$MESS["SECT_SORT_SHOWS"] = "by popularity";
+$MESS["TITLE_QUANTITY"] = "pcs.";
+$MESS["TITLE_QUANTITY_BLOCK"] = "Remainder";
+$MESS["T_DOCS"] = 'Letters of recommendation';
+$MESS["T_GOODS"] = 'Items #BRAND_NAME# in our store';
+$MESS["T_GOODS_SECTION"] = 'Sections with goods #BRAND_NAME# in our store';
+$MESS["T_PROJECTS"] = 'Projects';
+$MESS["T_REVIEWS"] = 'Reviews';
+$MESS["UNTIL_AKC"] = "Until the end of the promotion";

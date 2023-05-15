@@ -1,0 +1,24 @@
+<?php
+$MESS["COUNT_IN_LINE"] = 'Number of elements per line';
+$MESS["IMAGE_POSITION"] = 'Announcement image position';
+$MESS["IMAGE_POSITION_BOTTOM"] = 'Bottom';
+$MESS["IMAGE_POSITION_LEFT"] = 'left';
+$MESS["IMAGE_POSITION_RIGHT"] = 'right';
+$MESS["IMAGE_POSITION_TOP"] = 'Above';
+$MESS["SHOW_DETAIL_LINK"] = 'Display link to detail page';
+$MESS["SHOW_SECTION_PREVIEW_DESCRIPTION"] = 'Display a short description of the section';
+$MESS["SHOW_TABS"] = 'Show tabs';
+$MESS["S_ASK_QUESTION"] = '"Ask a question" button text';
+$MESS["S_ORDER_SERVICE"] = 'Button text "Order service"';
+$MESS["T_DOCS"] = 'Subtitle text "Documents"';
+$MESS["T_GALLERY"] = 'Subtitle text "Gallery"';
+$MESS["T_GOODS"] = 'Subtitle text "Products"';
+$MESS["T_PROJECTS"] = 'Subtitle text "Projects"';
+$MESS["T_REVIEWS"] = 'Subtitle text "Reviews"';
+$MESS["T_SERVICES"] = 'Subtitle text "Services"';
+$MESS["T_STAFF"] = 'Subtitle text "Specialists"';
+$MESS["USE_SHARE"] = 'Show social media links';
+$MESS["VIEW_TYPE"] = 'Display type';
+$MESS["VIEW_TYPE_ACCORDION"] = 'Accordion';
+$MESS["VIEW_TYPE_LIST"] = 'List';
+$MESS["VIEW_TYPE_TABLE"] = 'Block';

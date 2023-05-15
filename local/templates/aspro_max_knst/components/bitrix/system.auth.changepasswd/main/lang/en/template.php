@@ -1,0 +1,19 @@
+<?php
+$MESS["AUTH_CHANGE"] = 'Change password';
+$MESS["AUTH_CURRENT_PASSWORD"] = "Current Password:";
+$MESS["AUTH_NEW_PASSWORD_CONFIRM"] = 'Password confirmation:';
+$MESS["AUTH_NEW_PASSWORD_REQ"] = 'New Password:';
+$MESS["AUTH_NONSECURE_NOTE"] = 'The password will be sent in clear text. Please enable JavaScript in your browser to encrypt the password before sending.';
+$MESS["AUTH_SECURE_NOTE"] = 'The password will be encrypted in the browser before the form is submitted. This will avoid passing the password in the clear.';
+$MESS["CAPTCHA_PROMT"] = 'Enter code';
+$MESS["CHANGE_PASSWORD"] = 'Change password';
+$MESS["CHANGE_SUCCESS"] = 'Congratulations, you have successfully changed your password! To continue, you need to log in with a new password.';
+$MESS["PASSWORDS_DONT_MATCH"] = 'Passwords do not match';
+$MESS["PASSWORD_MIN_LENGTH"] = 'Password length is at least 6 characters';
+$MESS["PASSWORD_MIN_LENGTH_2"] = 'Password length must be greater than 6 characters.';
+$MESS["REQUIRED_FIELD"] = 'Required field.';
+$MESS["WRONG_PASSWORD_CONFIRM"] = 'Invalid password confirmation.';
+$MESS["change_pass_code"] = 'SMS recovery code';
+$MESS["change_pass_code_sent"] = 'An SMS was sent to your number with a code to restore access to the site.';
+$MESS["change_pass_login"] = 'Login';
+$MESS["change_pass_phone_number"] = 'Phone number';

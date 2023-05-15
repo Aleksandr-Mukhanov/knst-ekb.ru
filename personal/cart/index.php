@@ -1,6 +1,11 @@
 <?define("HIDE_SIDEBAR", true);
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Корзина");?>
+<style media="screen">
+	.topic{
+		display: none;
+	}
+</style>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:sale.basket.basket",
 	"v3",
@@ -25,7 +30,7 @@ $APPLICATION->SetTitle("Корзина");?>
 		"QUANTITY_FLOAT" => "N",
 		"PRICE_VAT_SHOW_VALUE" => "Y",
 		"TEMPLATE_THEME" => "site",
-		"SET_TITLE" => "Y",
+		"SET_TITLE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"OFFERS_PROPS" => array(
 			0 => "SIZES_SHOES",
@@ -122,7 +127,7 @@ $homeFilter = [
 		"COMPATIBLE_MODE" => "Y",	// Включить режим совместимости
 		"CONVERT_CURRENCY" => "N",	// Показывать цены в одной валюте
 		"CUSTOM_FILTER" => "{\"CLASS_ID\":\"CondGroup\",\"DATA\":{\"All\":\"AND\",\"True\":\"True\"},\"CHILDREN\":[]}",	// Фильтр товаров
-		"DETAIL_URL" => "catalog/#ELEMENT_CODE#/",	// URL, ведущий на страницу с содержимым элемента раздела
+		"DETAIL_URL" => "/catalog/#ELEMENT_CODE#/",	// URL, ведущий на страницу с содержимым элемента раздела
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",	// Не подключать js-библиотеки в компоненте
 		"DISPLAY_BOTTOM_PAGER" => "Y",	// Выводить под списком
 		"DISPLAY_COMPARE" => "N",	// Разрешить сравнение товаров
@@ -186,7 +191,7 @@ $homeFilter = [
 		"SECTION_CODE" => "",	// Код раздела
 		"SECTION_ID" => "",	// ID раздела
 		"SECTION_ID_VARIABLE" => "SECTION_ID",	// Название переменной, в которой передается код группы
-		"SECTION_URL" => "catalog/#SECTION_CODE_PATH#/",	// URL, ведущий на страницу с содержимым раздела
+		"SECTION_URL" => "/catalog/#SECTION_CODE_PATH#/",	// URL, ведущий на страницу с содержимым раздела
 		"SECTION_USER_FIELDS" => array(	// Свойства раздела
 			0 => "",
 			1 => "",
